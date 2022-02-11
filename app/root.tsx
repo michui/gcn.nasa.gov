@@ -272,6 +272,7 @@ function Document({ children }: { children: ReactNode }) {
                             className="usa-footer__primary-link"
                             href="/bugreport"
                             key="bugreport"
+                            rel="external"
                           >
                             Report a Bug.
                           </a>
