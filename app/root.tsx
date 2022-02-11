@@ -201,7 +201,7 @@ function Document({ children }: { children: ReactNode }) {
         </section>
         <Identifier>
           <div className="usa-footer__primary-section text-ink">
-            <GridContainer key="footerlinkgrid">
+            <GridContainer>
               <Grid row gap>
                 <Grid mobileLg={{ col: 6 }} desktop={{ col: 3 }}>
                   <div className="usa-media-block">
@@ -209,7 +209,6 @@ function Document({ children }: { children: ReactNode }) {
                       <a
                         className="usa-footer__primary-link"
                         href="https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback?selected=kafkagcn"
-                        key="contacticon"
                       >
                         <IconComment size={4} color={'white'} />
                       </a>
@@ -219,7 +218,6 @@ function Document({ children }: { children: ReactNode }) {
                       <a
                         className="usa-footer__primary-link"
                         href="https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback?selected=kafkagcn"
-                        key="contact"
                         rel="external"
                       >
                         Contact GCN directly
@@ -233,7 +231,6 @@ function Document({ children }: { children: ReactNode }) {
                       <a
                         className="usa-footer__primary-link"
                         href="https://github.com/tachgsfc/www.gcn.gsfc.nasa.gov"
-                        key="githubicon"
                       >
                         <IconGithub size={4} color={'white'} />
                       </a>
@@ -243,7 +240,6 @@ function Document({ children }: { children: ReactNode }) {
                       <a
                         className="usa-footer__primary-link"
                         href="https://github.com/tachgsfc/www.gcn.gsfc.nasa.gov"
-                        key="github"
                         rel="external"
                       >
                         Reference the GCN Github.
@@ -254,11 +250,7 @@ function Document({ children }: { children: ReactNode }) {
                 <Grid mobileLg={{ col: 6 }} desktop={{ col: 3 }}>
                   <div className="usa-media-block">
                     <div className="usa-media-block__img circle-6 bg-base-darkest display-flex flex-row flex-align-center flex-justify-center">
-                      <a
-                        className="usa-footer__primary-link"
-                        href="/bugreport"
-                        key="bugreporticon"
-                      >
+                      <a className="usa-footer__primary-link" href="/bugreport">
                         <IconBugReport size={4} color={'white'} />
                       </a>
                     </div>
@@ -267,7 +259,6 @@ function Document({ children }: { children: ReactNode }) {
                       <a
                         className="usa-footer__primary-link"
                         href="/bugreport"
-                        key="bugreport"
                         rel="external"
                       >
                         Report a Bug.
@@ -281,7 +272,6 @@ function Document({ children }: { children: ReactNode }) {
                       <a
                         className="usa-footer__primary-link"
                         href="/docs/changes"
-                        key="changelogicon"
                       >
                         <IconList size={4} color={'white'} />
                       </a>
@@ -291,7 +281,6 @@ function Document({ children }: { children: ReactNode }) {
                       <a
                         className="usa-footer__primary-link"
                         href="/docs/changes"
-                        key="changelog"
                       >
                         Change Log.
                       </a>
@@ -364,9 +353,7 @@ function Document({ children }: { children: ReactNode }) {
           <IdentifierGov aria-label="U.S. government information and services">
             NASA&apos;s Goddard Space Flight Center, Public Inquiries, Mail Code
             130, Greenbelt, MD 20771 USA{' '}
-            <a key="telephone" href="tel:1-301-286-2000">
-              (301) 286-2000
-            </a>
+            <a href="tel:1-301-286-2000">(301) 286-2000</a>
             <br />
             U.S. government information and services:{' '}
             <a rel="external" href="https://www.usa.gov">
