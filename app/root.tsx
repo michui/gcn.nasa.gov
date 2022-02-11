@@ -206,17 +206,14 @@ function Document({ children }: { children: ReactNode }) {
                 <Grid mobileLg={{ col: 6 }} desktop={{ col: 3 }}>
                   <div className="usa-media-block">
                     <div className="usa-media-block__img circle-6 bg-base-darkest display-flex flex-row flex-align-center flex-justify-center">
-                      <a
-                        className="usa-footer__primary-link"
-                        href="https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback?selected=kafkagcn"
-                      >
+                      <a href="https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback?selected=kafkagcn">
                         <IconComment size={4} color={'white'} />
                       </a>
                     </div>
                     <div className="usa-media-block_body">
                       Questions or Comments?
                       <a
-                        className="usa-footer__primary-link"
+                        className="usa-link"
                         href="https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback?selected=kafkagcn"
                         rel="external"
                       >
@@ -228,17 +225,14 @@ function Document({ children }: { children: ReactNode }) {
                 <Grid mobileLg={{ col: 6 }} desktop={{ col: 3 }}>
                   <div className="usa-media-block">
                     <div className="usa-media-block__img circle-6 bg-base-darkest display-flex flex-row flex-align-center flex-justify-center">
-                      <a
-                        className="usa-footer__primary-link"
-                        href="https://github.com/tachgsfc/www.gcn.gsfc.nasa.gov"
-                      >
+                      <a href="https://github.com/tachgsfc/www.gcn.gsfc.nasa.gov">
                         <IconGithub size={4} color={'white'} />
                       </a>
                     </div>
                     <div className="usa-media-block_body">
                       Running into an issue?
                       <a
-                        className="usa-footer__primary-link"
+                        className="usa-link"
                         href="https://github.com/tachgsfc/www.gcn.gsfc.nasa.gov"
                         rel="external"
                       >
@@ -250,17 +244,13 @@ function Document({ children }: { children: ReactNode }) {
                 <Grid mobileLg={{ col: 6 }} desktop={{ col: 3 }}>
                   <div className="usa-media-block">
                     <div className="usa-media-block__img circle-6 bg-base-darkest display-flex flex-row flex-align-center flex-justify-center">
-                      <a className="usa-footer__primary-link" href="/bugreport">
+                      <a href="/bugreport">
                         <IconBugReport size={4} color={'white'} />
                       </a>
                     </div>
                     <div className="usa-media-block_body">
                       Observed something that seems broken or inaccurate?
-                      <a
-                        className="usa-footer__primary-link"
-                        href="/bugreport"
-                        rel="external"
-                      >
+                      <a className="usa-link" href="/bugreport" rel="external">
                         Report a Bug.
                       </a>
                     </div>
@@ -269,19 +259,13 @@ function Document({ children }: { children: ReactNode }) {
                 <Grid mobileLg={{ col: 6 }} desktop={{ col: 3 }}>
                   <div className="usa-media-block">
                     <div className="usa-media-block__img circle-6 bg-base-darkest display-flex flex-row flex-align-center flex-justify-center">
-                      <a
-                        className="usa-footer__primary-link"
-                        href="/docs/changes"
-                      >
+                      <a href="/docs/changes">
                         <IconList size={4} color={'white'} />
                       </a>
                     </div>
                     <div className="usa-media-block_body">
                       Latest updates are recorded on the{' '}
-                      <a
-                        className="usa-footer__primary-link"
-                        href="/docs/changes"
-                      >
+                      <a className="usa-link" href="/docs/changes">
                         Change Log.
                       </a>
                     </div>
