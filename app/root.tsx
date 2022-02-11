@@ -212,7 +212,7 @@ function Document({ children }: { children: ReactNode }) {
                         <div className="usa-media-block__img circle-6 bg-base-darkest display-flex flex-row flex-align-center flex-justify-center">
                           <a
                             className="usa-footer__primary-link"
-                            href="/contact"
+                            href="https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback?selected=kafkagcn"
                             key="contacticon"
                           >
                             <IconComment size={4} color={'white'} />
@@ -222,7 +222,7 @@ function Document({ children }: { children: ReactNode }) {
                           Questions or Comments?
                           <a
                             className="usa-footer__primary-link"
-                            href="/contact"
+                            href="https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback?selected=kafkagcn"
                             key="contact"
                             rel="external"
                           >
